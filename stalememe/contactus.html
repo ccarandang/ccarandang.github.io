@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Dank Memes Inc. || Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<script type="text/javascript" src="formvalidation.js"></script>
+</head>
+<body>
+	<header>
+		<div id="headertext">
+			<h1>Dank Memes Inc.</h1>
+			<p>A subdivision of Itanimulli Corp.</p>
+		</div>
+		<div id="navigation">
+			<nav id="headernav">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="products.html">PRODUCTS</a></li>
+					<li><a href="contactus.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<form action="index.html">
+			<fieldset>
+				<h2>Contact us!</h2>
+				<ol>
+					<li>
+						<label for="fullname">Full Name</label>
+						<input id="fullname" name="name" type="text" autofocus/>
+						<p class="error" id="fullname_error">Please enter a name.</p>
+					</li>
+					<li>
+						<label for="phone">Phone Number</label>
+						<input id="phone" name="phone" type="tel" placeholder="2048675309"/>
+						<p class="error" id="phone_error">Please enter a phone number.</p>
+						<p class="error" id="phoneinvalid_error">Please enter a valid phone number. Example: 2048675309</p>
+					</li>
+					<li>
+						<label for="email">Email Address</label>
+						<input id="email" name="email" type="email" placeholder="example@website.com"/>
+						<p class="error" id="email_error">Please enter an email address.</p>
+						<p class="error" id="emailinvalid_error">Please enter a valid email address.</p>
+					</li>
+					<li>
+						<label for="comments">Your Message</label>
+						<textarea cols="40" rows="5" name="comments" id="comments" placeholder="Type your message and comments here."></textarea>
+						<p class="error" id="comments_error">Please enter a message.</p>
+					</li>
+				</ol>
+				<button type="submit" id="submit">Submit</button>
+				<button type="reset" id="clear">Reset Form</button>
+			</fieldset>
+		</form>
+	</section>
+	<footer>
+		<div id="footerlinks">
+			<nav id="footernav">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="products.html">PRODUCTS</a></li>
+					<li><a href="contactus.html">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="footerbox">
+			<p>This is just a sample website. &#169; 2016 T912938 Holdings Inc.</p>
+			<p>Using this website means that you agree to our use of cookies and cupcakes.</p>
+			<p>No memes were harmed in the making of this website. I promise.</p>
+		</div>
+	</footer>
+</body>
+</html>

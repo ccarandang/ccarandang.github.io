@@ -1,0 +1,14 @@
+These are the sources of the images used.
+
+-- INDEX.HTML --
+Doge - http://laughingsquid.com/wp-content/uploads/2013/12/20131231-16470752-doge.jpg
+It's a trap - http://celebritygossiper.com/wp-content/uploads/2016/04/ITS_A_TRAP.jpg
+Vape Nation - http://viralselect.com/wp-content/uploads/2016/03/vape_nation.jpg
+Ethan Bradberry - https://i.redditmedia.com/ns6s37aNnOoEnYsIhbqiVQmKUY25IGmC31lg5jkriwc.jpg?w=320&s=7e47be5625386b06e9b49f391850036c
+Dedotated WAM - http://gamebattles.majorleaguegaming.com/cdn/gb/arenas/teams/15/88/179/logo737223703171439090315.jpeg
+
+-- PRODUCTS.HTML --
+Rick Roll - http://dazedimg.dazedgroup.netdna-cdn.com/786/azure/dazed-prod/1150/0/1150228.jpg
+Rick Roll Video - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Navy SEAL - http://i.imgur.com/Yqv8ldz.jpg
+Become a living meme - https://cdn.meme.am/images/1121885.jpg

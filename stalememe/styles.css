@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+}
+
+body{
+	/*border: 3px #000 dashed;*/
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+header{
+	border: 1px #000 solid;
+	border-radius: 45px;
+	background-color: #EEE;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px 5px 10px 50px;
+}
+
+#headertext h1{
+	color: green;
+}
+
+#headernav ul{
+	position: absolute;
+	list-style: none;
+	margin-left: 300px;
+	margin-top: -50px;
+}
+
+#headernav ul li{
+	display: inline-block;
+	text-align: center;
+	border: 3px #000 double;
+	margin-left: 5px;
+}
+
+#headernav ul li:hover{
+	background-color: green;
+}
+
+#headernav ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Verdana', sans-serif;
+	font-size: 24pt;
+}
+
+section{
+	border: 1px #000 solid;
+	/*border-radius: 45px;*/
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px 5px 10px 50px;
+}
+
+.paragraph, .sampleproducts{
+	padding-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.paragraph ul{
+	list-style: none;
+}
+
+.product{
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	border: 1px #000 solid;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.product img{
+	border: 1px #000 solid;
+	width: 150px;
+	height: 150px;
+}
+
+footer{
+	border: 1px #000 solid;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px 5px 10px 50px;
+	text-align: center;
+	font-size: 10pt;
+}
+
+#footernav ul{
+	list-style: none;
+	position: relative;
+}
+
+#footernav ul li{
+	display: inline-block;
+}
+
+#footernav ul li:after{
+	content: " | ";
+}
+
+#footernav ul li:last-of-type:after{
+	content: none;
+}
+
+#footernav ul li a{
+	text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+	color: blue;
+}
+
+.productinfo{
+	padding-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.image{
+	margin-top: -20px;
+	display: inline;
+	position: relative;
+	float: right;
+}
+
+.image img{
+	margin-top: -10px;
+	width: 100px;
+	height: 100px;
+}
+
+form fieldset ol, button:nth-of-type(1){
+	margin-left: 25px;
+	list-style: none;
+}
+
+form fieldset ol li, button{
+	margin-bottom: 5px;
+}
+
+form fieldset ol li textarea{
+	display: block;
+}
+
+.error{
+	display: block;
+	color: red;
+	font-style: italic;
+}
